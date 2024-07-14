@@ -50,4 +50,4 @@ const transparent = Colors.transparent;
 String shareTxt = '''*Majlisu ahlu noorullah*
 *https://play.google.com/store/apps/details?id=com.noorullah.majlis1* ''';
 String aboutTxt =
-    'This application contains the books written by Afllaluzaman Ashaikh PKM Muhammad Fareed Bava Khan Alim Sahib (Baqavi-Al Kadhari).\n\n     In 1941, in the presence of scholars, umarahs and mureeds from inside and outside Kerala, every thursday night except Ramadan majlis was held at various places under the name of Ahlunurullah Majlis.';
+    'This application contains the book\'s written by Afllaluzaman Ashaikh PKM Muhammad Fareed Bava Khan Baqavi Alim Sahib  (Kadari, Akbari).\n\n     In 1941, in the presence of scholars, umarahs and mureeds from inside and outside Kerala, every thursday night except Ramadan majlis was held at various places under the name of Ahlunurullah Majlis.';
