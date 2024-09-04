@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:upgrader/upgrader.dart';
 import 'theme.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -46,7 +47,7 @@ class _MyAppState extends State<MyApp> {
           debugShowCheckedModeBanner: false,
           title: 'Majlisu ahlu noorullah',
           theme: value.getTheme(),
-          home: HomePage(),
+          home: UpgradeAlert(child: const HomePage()),
         );
       },
     );
