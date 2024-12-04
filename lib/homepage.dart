@@ -122,6 +122,7 @@ class _MainScreenState extends State<MainScreen> {
             }),
             Detailed1('റാത്തീബ്', () {
               Get.to(() => Scndpgdzyn(
+                    btn3: true,
                     appbartitle: 'റാത്തീബ്',
                     btn1title: 'റാത്തീബുല്ലാഹ്',
                     btn1action: () {
@@ -135,6 +136,13 @@ class _MainScreenState extends State<MainScreen> {
                       Get.to(() => PdfViewer(
                             pdfbartitle: 'റാത്തിബത്തുന്നൂരിയ്യ',
                             pdfAssetPath: nooriya,
+                          ));
+                    },
+                    btn3title: 'ചെറിയ റാത്തീബ്',
+                    btn3action: () {
+                      Get.to(() => PdfViewer(
+                            pdfbartitle: 'ചെറിയ റാത്തീബ്',
+                            pdfAssetPath: smallrathib,
                           ));
                     },
                   ));

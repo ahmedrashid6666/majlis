@@ -25,6 +25,7 @@ String duaunnoor = "assets/4nnoor.pdf";
 String afterswalath = "assets/4afterswalath.pdf";
 String shifa = "assets/6shifa baith.pdf";
 String bashaerulkhairath = "assets/6bashaerul khairath.pdf";
+String smallrathib = "assets/smallrathib.pdf";
 
 const mainColor = Color(0xff0A5386);
 const magentha = Color(0xff453658);
